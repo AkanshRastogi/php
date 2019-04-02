@@ -1,0 +1,31 @@
+
+  .div1{
+    background-color: #ff4da6;
+    height: 100px;
+  }
+.div2
+{
+height: 400px;
+margin-top: 15px;
+font-size:0;
+}
+.div3{
+width: calc(67% - 15px);
+height: 100%;
+  background-color: #ff037e;
+  display:inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+}
+.div4{
+width: 33%;
+height: 100%;
+  background-color: #ce0468;
+  display:inline-block;
+  vertical-align: top;
+}
+.div5{
+background-color: #802755;
+height: 100px;
+    margin-top: 15px;
+}
