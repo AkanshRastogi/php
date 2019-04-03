@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery-3.3.1.min.js"></script>
+
+<style>
+.color {
+  height: 100px;
+  width: 500px;
+  background-color: yellow;
+}
+.blackBg{
+  background-color: green;
+}
+</style>
+<script>
+  $(function() {
+    console.log('akansh');
+    $('#Filler').click(function() {
+        $(this).attr('id', 'Filler2');
+    });
+});
+
+</script>
+</head>
+<body>
+
+  <div class="color">    </div>
+<button type="button" name="ColorChange">colorchange</button>
+
+</body>
+</html>
