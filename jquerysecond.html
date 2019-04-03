@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery-3.3.1.min.js"></script>
+
+<style>
+.size{
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+}
+</style>
+</head>
+<body>
+<script>
+  $(document).ready(function(){
+     $("#button").click(function(){
+       var va = $("#color").val();
+       var sa = $("#Name").val();
+        $("#aa").css('background-color', va);
+        $("p").append('Hello ' +""+ sa);
+      });
+    });
+
+</script>
+
+<div>
+<input id="Name" type="text" name="Name" placeholder="First name">
+<input id="color" type="text" name="Color" placeholder="Color">
+<button id="button" type="button" name="button">colorchange</button>
+</div>
+<div id="aa" class="size">
+  <p></p>
+
+  </div>
+</body>
+</html>
