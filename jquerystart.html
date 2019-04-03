@@ -13,20 +13,25 @@
   background-color: green;
 }
 </style>
-<script>
-  $(function() {
-    console.log('akansh');
-    $('#Filler').click(function() {
-        $(this).attr('id', 'Filler2');
-    });
-});
-
-</script>
 </head>
 <body>
+<script>
+  $(document).ready(function(){
+    $('#button').click(function(){
+    $('div').toggleClass('blackBg');
+  });
+});
+$(function() {
+    $('#aa').click(function() {
+      var va = $("#sa").val();
+      $(".color").attr('id', va);
 
-  <div class="color">    </div>
-<button type="button" name="ColorChange">colorchange</button>
-
+    });
+});
+</script>
+  <div  class="color">    </div>
+<button id="button" type="button" name="ColorChange">colorchange</button>
+<input id="sa" type="text" name="Akansh" value="Akansh">
+<button id="aa" type="IdChange" name="IdChange">Idchange</button>
 </body>
 </html>
